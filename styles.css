@@ -1,0 +1,144 @@
+/* ** start of styles.css ** */
+
+body {
+  background-color: rosybrown;
+  font-family: "Cascadia Mono", sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #7676d8;
+  transition: color 1.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1ebadc;
+  transition: color 0s ease;
+}
+
+/* a:visited {
+  color: #b27cc7;
+} */
+
+.business-card {
+  background-color: rgb(31, 31, 31);
+  width: 600px;
+  height: 225px;
+  padding: 40px;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+.var {
+  margin-left: 48px;
+  color: rgb(156, 220, 254);
+  transition: color 1.3s;
+}
+
+.var:hover {
+  /* color: #8c2c7d; */
+  color: rgb(31, 31, 31);
+  transition: color 0s ease;
+}
+
+.contact-info {
+  color: #7ba5af;
+  transition: color 1.3s;
+}
+
+.contact-info:hover {
+  /* color: #1ebadc; */
+  color: rgb(31, 31, 31);
+  transition: color 0s ease;
+}
+
+.personal-info {
+  color: rgb(164, 145, 255);
+  display: inline-block;
+  position: absolute;
+  left: 200px; /* Adjust this value as needed */
+  transition: color 1.3s;
+}
+
+.personal-info:hover {
+  /* color: #b27cc7; */
+  color: #00d0ff;
+  transition: color 0s ease;
+}
+
+.function {
+  color: #b27cc7;
+  transition: color 1.3s;
+}
+
+.function:hover {
+  /* color: #a7e8bb; */
+  color: rgb(31, 31, 31);
+  transition: color 0s ease;
+}
+
+.function-name {
+  color: rgb(156, 220, 254);
+  transition: color 1.3s;
+}
+
+.function-name:hover {
+  /* color: #8c2c7d; */
+  color: rgb(31, 31, 31);
+  transition: color 0s ease;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-link {
+  color: #2f914c;
+}
+
+.equal {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  left: 160px; /* Adjust this value as needed */
+  transition: color 1.3s;
+}
+
+.equal:hover {
+  color: rgb(31, 31, 31);
+  transition: color 0s ease;
+}
+
+.row {
+  position: relative;
+  min-height: 24px; /* Adjust based on your line height */
+  margin-left: -10px;
+}
+
+.text-effect {
+  color: white;
+  transition: color 1.3s;
+}
+
+.text-effect:hover {
+  color: rgb(31, 31, 31);
+  transition: color 0s;
+}
+/* ** end of styles.css ** */
