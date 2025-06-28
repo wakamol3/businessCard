@@ -32,8 +32,8 @@ a:hover {
   padding: 40px;
   margin: 100px auto 100px auto;
   text-align: left;
-  font-size: 16px;
   color: white;
+  border-radius: 50px;
 }
 
 .profile-image {
@@ -125,7 +125,7 @@ a:hover {
 
 .row {
   position: relative;
-  min-height: 24px; /* Adjust based on your line height */
+  /*Adjust based on your line height */
   margin-left: -10px;
 }
 
