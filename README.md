@@ -1,3 +1,1 @@
-A freecodecamp business card with my own CSS
-
-Uses lots of hover transitions
+custom css business cards for personal websites
